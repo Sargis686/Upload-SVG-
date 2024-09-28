@@ -1,0 +1,98 @@
+/* Existing Styles for the SVG Item */
+
+
+
+.svgItem {
+    display: inline-block;
+    
+  background-color: #444;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+  right: 20px;
+}
+
+.svgItem.dragging {
+  border: 2px dashed #ff6347;
+  background-color: #333;
+}
+
+.svgDisplay {
+  margin: 10px 0;
+  border: 1px solid #666;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #222;
+  min-height: 100px;
+}
+
+.fileNameInput {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* New styles for icons */
+.iconContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+.iconButton:hover {
+  color: #ff6347;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background with transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Make sure it sits on top of other elements */
+}
+
+.modalContent {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+}
+
+.closeButton {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.closeButton:hover {
+  background-color: #e5533d;
+}

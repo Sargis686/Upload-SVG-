@@ -1,0 +1,91 @@
+.container {
+    position: relative;
+    top: 200px;
+    display: flex;             /* Enables Flexbox layout */
+    flex-direction: column;    /* Aligns items in a column (vertical layout) */
+    justify-content: center;   /* Centers items vertically */
+    align-items: center;       /* Centers items horizontally */
+    height: 200vh;             /* Makes the container take the full viewport height */
+    padding: 20px;
+    box-sizing: border-box;    /* Ensures padding is included in the container's dimensions */
+  }
+  
+
+  .center{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+  }
+  .uploadButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    position: relative;
+    top: 20px;
+    right: 10px;
+  }
+  
+  .svgList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .svgItem {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .fileNameInput {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .svgDisplay {
+    margin-bottom: 10px;
+    border: 2px solid;
+    padding: 10px;
+  }
+  
+  .colorPicker {
+    margin-bottom: 10px;
+  }
+  
+  .deleteButton {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .selectFileButton, .closeModalButton {
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  

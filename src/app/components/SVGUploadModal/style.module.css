@@ -1,0 +1,45 @@
+/* SVGUploadModal.module.css */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .selectFileButton {
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .selectFileButton:hover {
+    background-color: #e5533c;
+  }
+  
+  .closeModalButton {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
